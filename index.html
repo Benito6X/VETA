@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CUÁNDO — Coordina planes en segundos</title>
+  <meta name="description" content="Crea un plan, compártelo por WhatsApp y deja que CUÁNDO encuentre el mejor momento para todos. Sin cuenta. Sin app. Sin estrés." />
+  <meta name="theme-color" content="#07070E" />
+  <meta property="og:title" content="CUÁNDO — Coordina en segundos" />
+  <meta property="og:description" content="Un link para que todos voten. CUÁNDO encuentra el mejor momento del grupo." />
+  <meta property="og:image" content="assets/img/share-visual.jpg" />
+  <link rel="icon" href="assets/img/share-visual.jpg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="preloader" id="preloader" aria-label="Cargando CUÁNDO">
+    <div class="preloader__orb"></div>
+    <div class="brand-mark brand-mark--large" aria-hidden="true"><span>?</span></div>
+    <p>CUÁNDO</p>
+    <small>Preparando el momento perfecto</small>
+  </div>
+
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="CUÁNDO inicio">
+      <span class="brand-mark"><span>?</span></span>
+      <span class="brand-name">CUÁNDO</span>
+      <span class="version-pill">Core V1</span>
+    </a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#how">Cómo funciona</a>
+      <a href="#demo">Demo</a>
+      <a href="#features">Opciones</a>
+      <a href="#result">Resultado</a>
+    </nav>
+    <a class="nav-cta" href="#creator">Crear plan</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section" aria-label="Inicio">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/img/hero-bg.jpg" alt="" />
+        <div class="hero-media__overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="live-dot"></span>
+            Sin cuenta · Sin app · Listo para WhatsApp
+          </div>
+          <h1>Ponte de acuerdo sin perseguir a nadie.</h1>
+          <p class="hero-lead">Crea un plan, compártelo por WhatsApp y deja que <strong>CUÁNDO</strong> encuentre el mejor momento para todo el grupo.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#creator">Crear mi primer plan</a>
+            <a class="btn btn-secondary" href="#demo">Ver demo visual</a>
+          </div>
+          <div class="hero-proof" aria-label="Beneficios rápidos">
+            <span><strong>5s</strong> para crear</span>
+            <span><strong>0</strong> registros</span>
+            <span><strong>1</strong> link para todos</span>
+          </div>
+        </div>
+
+        <div class="hero-device reveal" data-tilt>
+          <div class="device-glow"></div>
+          <div class="phone">
+            <div class="phone-top"></div>
+            <div class="phone-screen">
+              <div class="app-status">
+                <span>9:41</span>
+                <span>●●●</span>
+              </div>
+              <div class="mini-brand">
+                <span class="brand-mark brand-mark--mini"><span>?</span></span>
+                <span>CUÁNDO</span>
+              </div>
+              <div class="plan-card hot">
+                <span class="tag">Plan activo</span>
+                <h3>Cena el viernes</h3>
+                <p>6 amigos · 4 opciones</p>
+              </div>
+              <div class="vote-stack">
+                <div class="vote-option selected"><span>Vie 8:30 PM</span><strong>5/6</strong></div>
+                <div class="vote-option"><span>Sáb 7:00 PM</span><strong>4/6</strong></div>
+                <div class="vote-option"><span>Dom 6:00 PM</span><strong>2/6</strong></div>
+              </div>
+              <div class="result-mini">
+                <div class="checkmark">✓</div>
+                <div>
+                  <small>Mejor momento</small>
+                  <strong>Viernes 8:30 PM</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card floating-card--one">Link creado</div>
+          <div class="floating-card floating-card--two">Compartir por WhatsApp</div>
+          <div class="floating-card floating-card--three">Resultado listo</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section chaos" id="problem">
+      <div class="container two-col">
+        <div class="section-copy reveal">
+          <span class="section-kicker">El problema</span>
+          <h2>El chat del grupo no fue hecho para decidir horarios.</h2>
+          <p>Cuando todos responden diferente, el plan se enfría. CUÁNDO convierte ese caos en una decisión clara.</p>
+        </div>
+        <div class="chat-chaos reveal" aria-label="Ejemplo de caos en chat">
+          <div class="chat-bubble left">Yo puedo viernes 😅</div>
+          <div class="chat-bubble right">Mejor sábado</div>
+          <div class="chat-bubble left">¿A qué hora?</div>
+          <div class="chat-bubble right">Avísenme</div>
+          <div class="chat-bubble left muted">*nadie confirma*</div>
+          <div class="chat-solution">CUÁNDO lo ordena en segundos</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Cómo funciona</span>
+          <h2>Un flujo simple, con sensación premium.</h2>
+          <p>Diseñado para abrirse rápido desde WhatsApp y funcionar perfecto en móvil.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <span class="step-number">01</span>
+            <h3>Crea el plan</h3>
+            <p>Escribe la idea, elige días, horas y detalles opcionales.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">02</span>
+            <h3>Comparte el link</h3>
+            <p>Mándalo al grupo por WhatsApp, Telegram o copia el enlace.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">03</span>
+            <h3>Todos votan</h3>
+            <p>Cada persona toca sus opciones sin crear cuenta ni instalar nada.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">04</span>
+            <h3>CUÁNDO decide</h3>
+            <p>Smart Match V1 muestra el mejor momento y genera el mensaje final.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cinematic" id="demo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Demo visual</span>
+          <h2>La app debe sentirse viva antes de tocar un botón.</h2>
+          <p>Estos bloques quedan listos para reemplazarlos por videos MP4 cuando quieras.</p>
+        </div>
+        <div class="cinema-grid">
+          <article class="cinema-card reveal">
+            <img src="assets/img/hero-bg.jpg" alt="Amigos mirando un teléfono" />
+            <div class="cinema-overlay"></div>
+            <span class="play-dot">▶</span>
+            <h3>Plan social</h3>
+            <p>Amigos, salida, noche, energía.</p>
+          </article>
+          <article class="cinema-card cinema-card--wide reveal">
+            <img src="assets/img/share-visual.jpg" alt="Teléfono con check verde" />
+            <div class="cinema-overlay"></div>
+            <span class="play-dot">▶</span>
+            <h3>Resultado confirmado</h3>
+            <p>Check, confetti y sensación de logro.</p>
+          </article>
+          <article class="cinema-card reveal video-placeholder">
+            <div class="placeholder-motion"></div>
+            <span class="play-dot">▶</span>
+            <h3>Votación</h3>
+            <p>Microinteracciones, chips y barras animadas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section creator" id="creator">
+      <div class="container creator-grid">
+        <div class="creator-copy reveal">
+          <span class="section-kicker">Demo funcional</span>
+          <h2>Crea un plan de prueba ahora.</h2>
+          <p>Esta V2 ya incluye una experiencia interactiva: escribe tu plan, genera un link, comparte por WhatsApp y mira el resultado simulado.</p>
+          <div class="creator-badges">
+            <span>Smart Match V1</span>
+            <span>Story Card</span>
+            <span>ICS Calendar</span>
+          </div>
+        </div>
+
+        <div class="app-shell reveal" aria-label="Creador de planes CUÁNDO">
+          <div class="app-shell__top">
+            <div>
+              <small>Crear plan</small>
+              <strong>CUÁNDO Core V1</strong>
+            </div>
+            <button class="icon-button" id="smartFillBtn" type="button" title="Completar con Plan inteligente">✨</button>
+          </div>
+
+          <form class="plan-form" id="planForm">
+            <label>
+              Nombre del plan
+              <input id="planTitle" type="text" value="Cena con el grupo" autocomplete="off" />
+            </label>
+
+            <label>
+              Tipo de plan
+              <select id="planType">
+                <option>Cena</option>
+                <option>Cine</option>
+                <option>Reunión</option>
+                <option>Cumpleaños</option>
+                <option>Gaming night</option>
+                <option>Trabajo</option>
+                <option>Viaje corto</option>
+              </select>
+            </label>
+
+            <div class="chip-group" aria-label="Días disponibles">
+              <span>Días</span>
+              <button type="button" class="chip active" data-day="Viernes">Viernes</button>
+              <button type="button" class="chip active" data-day="Sábado">Sábado</button>
+              <button type="button" class="chip" data-day="Domingo">Domingo</button>
+              <button type="button" class="chip" data-day="Lunes">Lunes</button>
+            </div>
+
+            <div class="chip-group" aria-label="Horas disponibles">
+              <span>Horas</span>
+              <button type="button" class="chip active" data-hour="7:00 PM">7:00 PM</button>
+              <button type="button" class="chip active" data-hour="8:30 PM">8:30 PM</button>
+              <button type="button" class="chip" data-hour="9:30 PM">9:30 PM</button>
+              <button type="button" class="chip" data-hour="10:00 PM">10:00 PM</button>
+            </div>
+
+            <label>
+              Nota opcional
+              <textarea id="planNote" rows="3" placeholder="Ejemplo: confirmen antes del jueves.">Confirmen antes del jueves. Sin cuenta, solo voten.</textarea>
+            </label>
+
+            <div class="toggle-row">
+              <label class="switch-label">
+                <input id="anonymousVotes" type="checkbox" />
+                <span class="switch"></span>
+                Votos anónimos
+              </label>
+              <label class="switch-label">
+                <input id="deadline" type="checkbox" checked />
+                <span class="switch"></span>
+                Límite de votación
+              </label>
+            </div>
+
+            <button class="btn btn-primary btn-full" type="submit">Generar link premium</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section live-demo" id="result">
+      <div class="container live-grid">
+        <div class="preview-panel reveal">
+          <div class="preview-header">
+            <span class="section-kicker">Vista previa</span>
+            <button class="mini-action" id="copyLinkBtn" type="button">Copiar link</button>
+          </div>
+          <div class="generated-link" id="generatedLink">https://cuando.app/p/demo</div>
+          <div class="share-actions">
+            <a class="btn btn-whatsapp" id="whatsappBtn" href="#" target="_blank" rel="noreferrer">Compartir por WhatsApp</a>
+            <button class="btn btn-secondary" id="storyBtn" type="button">Crear story PNG</button>
+            <button class="btn btn-secondary" id="calendarBtn" type="button">Exportar calendario</button>
+          </div>
+
+          <div class="vote-preview" id="votePreview"></div>
+        </div>
+
+        <div class="result-panel reveal">
+          <div class="result-hero">
+            <div class="success-orb">✓</div>
+            <div>
+              <small>Mejor momento</small>
+              <h2 id="bestSlot">Viernes · 8:30 PM</h2>
+              <p id="bestMeta">5 de 6 personas disponibles</p>
+            </div>
+          </div>
+          <div class="ranking" id="ranking"></div>
+          <div class="final-message">
+            <span>Mensaje final para el grupo</span>
+            <p id="finalMessage">Listo, el mejor horario es Viernes a las 8:30 PM. Confirmen para cerrar el plan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Más completa</span>
+          <h2>Opciones que hacen que CUÁNDO se sienta grande.</h2>
+          <p>La app mantiene la simpleza, pero gana más profundidad para planes reales.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><span>⚡</span><h3>Plan inteligente</h3><p>Propone horarios automáticamente según el tipo de plan.</p></article>
+          <article class="feature-card reveal"><span>🟢</span><h3>WhatsApp first</h3><p>Link listo para copiar o compartir directo en el grupo.</p></article>
+          <article class="feature-card reveal"><span>📊</span><h3>Ranking visual</h3><p>Compara las mejores opciones con barras animadas.</p></article>
+          <article class="feature-card reveal"><span>🔒</span><h3>Sin registro</h3><p>Menos fricción para que todos respondan rápido.</p></article>
+          <article class="feature-card reveal"><span>🎉</span><h3>Resultado celebrable</h3><p>Check, glow, confetti y tarjeta para compartir en stories.</p></article>
+          <article class="feature-card reveal"><span>📅</span><h3>Calendario</h3><p>Exporta el mejor horario a un archivo .ics.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section use-cases">
+      <div class="container">
+        <div class="marquee reveal" aria-label="Casos de uso">
+          <div class="marquee-track">
+            <span>Cena con amigos</span><span>Cine</span><span>Cumpleaños</span><span>Gaming night</span><span>Reunión familiar</span><span>Trabajo</span><span>Grupo de estudio</span><span>Viaje corto</span>
+            <span>Cena con amigos</span><span>Cine</span><span>Cumpleaños</span><span>Gaming night</span><span>Reunión familiar</span><span>Trabajo</span><span>Grupo de estudio</span><span>Viaje corto</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <span class="section-kicker">FAQ</span>
+          <h2>Simple para el usuario. Potente para la marca.</h2>
+        </div>
+        <div class="faq-list reveal" id="faqList">
+          <button class="faq-item" type="button"><span>¿Necesito cuenta?</span><p>No. CUÁNDO está pensado para que cualquiera abra el link y vote rápido.</p></button>
+          <button class="faq-item" type="button"><span>¿Funciona con WhatsApp?</span><p>Sí. El flujo principal está pensado para compartir el link directamente en WhatsApp.</p></button>
+          <button class="faq-item" type="button"><span>¿Qué es Smart Match V1?</span><p>Es el nombre premium del motor que calcula la mejor opción del grupo.</p></button>
+          <button class="faq-item" type="button"><span>¿Puedo agregar videos?</span><p>Sí. La estructura ya tiene carpeta de videos y bloques preparados para reemplazar imágenes por MP4.</p></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container final-card reveal">
+        <span class="section-kicker">CUÁNDO</span>
+        <h2>Menos mensajes. Más planes.</h2>
+        <p>Una experiencia premium para decidir horarios sin complicar al grupo.</p>
+        <a class="btn btn-primary magnetic" href="#creator">Crear un plan</a>
+      </div>
+    </section>
+  </main>
+
+  <a class="mobile-sticky" href="#creator">Crear plan</a>
+
+  <canvas id="storyCanvas" width="1080" height="1920" aria-hidden="true"></canvas>
+  <script src="js/app.js"></script>
+</body>
+</html>
